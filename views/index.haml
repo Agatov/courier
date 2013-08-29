@@ -1,0 +1,67 @@
+.white-strip
+  .wrapper.padding2
+    .title
+      Работа курьером в Москве.
+      %span.light 300 рублей
+      за доставку.
+      %span.light 5-6
+      доставок в день.
+
+
+
+.wrapper.padding1
+  .benefits-header
+    Кто нам нужен:
+  .benefits
+    .benefit
+      Мужчина до 30 лет
+    .benefit
+      Славянской внешности
+    .benefit
+      Родной язык - русский
+    .benefit
+      Любишь опаздывать - тебе не к нам
+
+
+.wrapper
+  .phone
+    8 495 792 89 59
+
+
+.wrapper
+  .order-button
+    Хочу у вас работать
+
+#map
+
+.modal-overlay
+.modal-dialog
+  .header
+    Заполните форму
+  .body
+    %form{action: '#'}
+      %input{type: :text, name: :username, placeholder: 'Введите ваше имя'}
+      %input{type: :text, name: :phone, placeholder: 'Введите ваш телефон'}
+      %button#send-order
+        Отправить
+
+.modal-thank-you
+  .header
+    Спасибо!
+  .body
+    Мы свяжемся с вами уже очень скоро.
+
+
+    %button#hide-thank-you
+      Я буду ждать!
+
+
+%script#balloon-template{type: :template}
+  .balloon
+    .content
+      ООО "Абардача"
+      %br
+      Казарменный переулок, дом 3
+      %br
+      тел: 8 495 792 89 59
+    .arrow-up
